@@ -21,11 +21,11 @@ A lightweight web-based application built using HTML, CSS, and JavaScript to ana
 - **No Backend** — 100% client-side
 
   🧠 How It Works
-1. Input: User pastes their resume text and a job description.
+1. Input: User pastes their resume pdf and a job description.
 2. Processing: JavaScript extracts keywords from both.
 
 Analysis:
 
-Calculates keyword overlap
-Displays ATS compatibility score
-Lists missing keywords from the resume
+Calculates keyword overlap.
+Displays ATS compatibility score.
+Lists matched keywords from the resume.
