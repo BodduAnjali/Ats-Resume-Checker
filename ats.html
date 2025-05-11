@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATS Resume Checker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>ATS Resume Checker</h2>
+        <p>Paste the job description and upload your resume to analyze compatibility.</p>
+
+        <textarea id="jobDescription" placeholder="Paste job description here..."></textarea>
+        <input type="file" id="resumeUpload" accept=".txt, .pdf">
+
+        <button onclick="checkResume()">Check Resume</button>
+        <p id="result"></p>
+    </div>
+
+    <!-- Load PDF.js library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.worker.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="ats.js"></script>
+</body>
+</html>
